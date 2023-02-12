@@ -4,8 +4,8 @@
 # 341 "<built-in>" 3
 # 1 "<command line>" 1
 # 1 "<built-in>" 2
-# 1 "vendor/mediatek/proprietary/hardware/fstab/mt6765/fstab.in.mt6765" 2
-# 133 "vendor/mediatek/proprietary/hardware/fstab/mt6765/fstab.in.mt6765"
+# 1 "vendor/mediatek/proprietary/hardware/fstab/mt6768/fstab.in.mt6768" 2
+# 133 "vendor/mediatek/proprietary/hardware/fstab/mt6768/fstab.in.mt6768"
 system /system ext4 ro wait,avb=vbmeta_system,logical,first_stage_mount,avb_keys=/avb/q-gsi.avbpubkey:/avb/r-gsi.avbpubkey:/avb/s-gsi.avbpubkey,slotselect
 
 
@@ -19,7 +19,7 @@ vendor /vendor ext4 ro wait,avb,logical,first_stage_mount,slotselect
 
 
 product /product ext4 ro wait,avb,logical,first_stage_mount,slotselect
-# 164 "vendor/mediatek/proprietary/hardware/fstab/mt6765/fstab.in.mt6765"
+# 164 "vendor/mediatek/proprietary/hardware/fstab/mt6768/fstab.in.mt6768"
 /dev/block/platform/bootdevice/by-name/md_udc /metadata ext4 noatime,nosuid,nodev,discard wait,check,formattable,first_stage_mount
 
 
